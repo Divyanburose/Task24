@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T21:31:42 IST" name="Suite" finished-at="2024-03-05T21:32:07 IST" duration-ms="25642">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T21:31:42 IST" name="RegressionTest" finished-at="2024-03-05T21:32:07 IST" duration-ms="25642">
+      <class name="test.TC002_Signup">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.TC002_Signup@4f32a3ad]" started-at="2024-03-05T21:31:42 IST" name="launchbrowser" finished-at="2024-03-05T21:31:47 IST" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="signupTest()[pri:0, instance:test.TC002_Signup@4f32a3ad]" started-at="2024-03-05T21:31:47 IST" name="signupTest" finished-at="2024-03-05T21:31:48 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC002_Signup@4f32a3ad]" started-at="2024-03-05T21:31:48 IST" name="browserclose" finished-at="2024-03-05T21:31:48 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- test.TC002_Signup -->
+      <class name="test.TC001_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:42 IST" name="setup" finished-at="2024-03-05T21:31:42 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:50 IST" name="launchbrowser" finished-at="2024-03-05T21:31:53 IST" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:53 IST" name="loginTest" data-provider="excelData" finished-at="2024-03-05T21:31:54 IST" duration-ms="887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyaganeshwathi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhan@sekar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:54 IST" name="browserclose" finished-at="2024-03-05T21:31:54 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:54 IST" name="launchbrowser" finished-at="2024-03-05T21:31:57 IST" duration-ms="3191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:57 IST" name="loginTest" data-provider="excelData" finished-at="2024-03-05T21:31:58 IST" duration-ms="1011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyaganesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhan@sekar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:58 IST" name="browserclose" finished-at="2024-03-05T21:31:59 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:31:59 IST" name="launchbrowser" finished-at="2024-03-05T21:32:02 IST" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:32:02 IST" name="loginTest" data-provider="excelData" finished-at="2024-03-05T21:32:03 IST" duration-ms="784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyaganeshwathi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhanasekar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:32:03 IST" name="browserclose" finished-at="2024-03-05T21:32:03 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:32:03 IST" name="launchbrowser" finished-at="2024-03-05T21:32:06 IST" duration-ms="3000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:32:06 IST" name="loginTest" data-provider="excelData" finished-at="2024-03-05T21:32:07 IST" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyaganeshwathi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhanaseka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC001_LoginTest@30f842ca]" started-at="2024-03-05T21:32:07 IST" name="browserclose" finished-at="2024-03-05T21:32:07 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- test.TC001_LoginTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Suite -->
+</testng-results>
